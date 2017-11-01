@@ -200,7 +200,7 @@
 		"ypos"			"8"
 		"zpos"			"1"
 		"wide"			"195"
-		"tall"			"48"
+		"tall"			"0"
 		"visible"		"1"
 		"enabled"		"1"
 		"image"			"../logo/new_tf2_logo"
@@ -224,8 +224,8 @@
 		"font"			"ChalkboardTitleMedium"
 		"labelText"		"flamehud"
 		"textAlignment"	"center"
-		"xpos"			"c-300"
-		"ypos"			"60"
+		"xpos"			"c-285"
+		"ypos"			"20"
 		"zpos"			"3"
 		"wide"			"200"
 		"tall"			"20"
@@ -243,8 +243,8 @@
 		"font"			"ChalkboardTitleMedium"
 		"labelText"		"flamehud"
 		"textAlignment"	"center"
-		"xpos"			"c-299"
-		"ypos"			"61"
+		"xpos"			"c-284"
+		"ypos"			"21"
 		"zpos"			"2"
 		"wide"			"200"
 		"tall"			"20"
@@ -266,7 +266,7 @@
 		"ypos"			"80"
 		"zpos"			"3"
 		"wide"			"200"
-		"tall"			"20"
+		"tall"			"0"
 		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"1"
@@ -285,7 +285,7 @@
 		"ypos"			"81"
 		"zpos"			"2"
 		"wide"			"200"
-		"tall"			"20"
+		"tall"			"0"
 		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"1"
@@ -335,7 +335,7 @@
 	{
 		"ControlName"	"CTFImagePanel"
 		"fieldName"		"MenuLineFlameRight"
-		"xpos"			"c-100"
+		"xpos"			"c-80"
 		"ypos"			"0"
 		"zpos"			"2"
 		"wide"			"2"
@@ -363,7 +363,7 @@
 		"xpos"			"c-300"
 		"ypos"			"0"
 		"zpos"			"-1"
-		"wide"			"200"
+		"wide"			"220"
 		"tall"			"f0"
 		"visible"		"1"
 		"pinCorner"		"0"
@@ -443,14 +443,178 @@
 			"fgcolor_override"	"White"
 			"auto_wide_tocontents" "1"
 		}
-	}	
+	}
+	
+	"RankModelPanel"
+	{
+		"ControlName"	"CPvPRankPanel"
+		"fieldName"		"RankModelPanel"
+		"xpos"			"cs-0.5-187"
+		"ypos"			"cs-0.5-165"
+
+		"zpos"			"0"
+		"wide"			"1000"
+		"tall"			"1000"
+		"visible"		"1"
+		"proportionaltoparent"	"1"
+		"mouseinputenabled"	"1"
+
+		"matchgroup"	"MatchGroup_Casual_12v12"
+
+		"show_progress"	"0"
+	}
+	
+	"RankPanel"
+	{
+		"ControlName"	"CPvPRankPanel"
+		"fieldName"		"RankPanel"
+		"xpos"			"c-407"
+		"ypos"			"80"
+		"zpos"			"0"
+		"wide"			"320"
+		"tall"			"100"	//100
+		"visible"		"1"
+		"proportionaltoparent"	"1"
+		"mouseinputenabled"	"0"
+
+		"matchgroup"	"MatchGroup_Casual_12v12"
+		"xp_source_notification_center_x"	"350"
+
+		"show_model"	"0"
+	}
+	
+	"FriendsContainer"
+	{
+		"ControlName"	"EditablePanel"
+		"fieldname"		"FriendsContainer"
+		"xpos"			"c-302"
+		"ypos"			"310"
+		"zpos"			"3"
+		"wide"			"225"
+		"tall"			"150"
+		"visible"		"1"
+
+		"border"		"NoBorder"
+
+		"TitleLabel"
+		{
+			"ControlName"	"CExLabel"
+			"fieldName"		"TitleLabel"
+			"font"			"HudFontSmallBold"
+			"labelText"		"#TF_Competitive_Friends"
+			"textAlignment"	"west"
+			"xpos"			"12"
+			"ypos"			"0"
+			"wide"			"f0"
+			"tall"			"0"
+			"autoResize"	"0"
+			"pinCorner"		"0"
+			"visible"		"1"
+			"enabled"		"1"
+			"textinsetx"	"0"
+			"fgcolor_override"	"235 227 203 255"
+		}
+
+		"InnerShadow"
+		{
+			"ControlName"	"EditablePanel"
+			"fieldname"		"InnerShadow"
+			"xpos"			"cs-0.5"
+			"ypos"			"rs1-10"
+			"zpos"			"501"
+			"wide"			"f20"
+			"tall"			"110"
+			"visible"		"1"	
+			"PaintBackgroundType"	"0"
+			"proportionaltoparent"	"1"
+			"mouseinputenabled"	"0"
+
+			"paintborder"	"1"
+			"border"		"FlameMenuBorder"
+		}
+
+		"SteamFriendsList"
+		{
+			"ControlName"	"CSteamFriendsListPanel"
+			"fieldname"		"SteamFriendsList"
+			"xpos"			"cs-0.5"
+			"ypos"			"rs1-10"
+			"zpos"			"500"
+			"wide"			"f20"
+			"tall"			"110"
+			"visible"		"1"
+			"proportionaltoparent"	"1"
+
+			"columns_count"	"2"
+			"inset_x"		"3"
+			"inset_y"		"3"
+			"row_gap"		"5"
+			"column_gap"	"0"
+			"restrict_width"	"0"
+
+			"friendpanel_kv"
+			{
+				"wide"		"100"
+				"tall"		"20"
+			}
+
+			"ScrollBar"
+			{
+				"ControlName"	"ScrollBar"
+				"FieldName"		"ScrollBar"
+				"xpos"			"rs1-1"
+				"ypos"			"0"
+				"tall"			"f0"
+				"wide"			"0" // This gets slammed from client schme.  GG.
+				"zpos"			"1000"
+				"nobuttons"		"1"
+				"proportionaltoparent"	"1"
+
+				"Slider"
+				{
+					"fgcolor_override"	"TanDark"
+				}
+		
+				"UpButton"
+				{
+					"ControlName"	"Button"
+					"FieldName"		"UpButton"
+					"visible"		"0"
+				}
+		
+				"DownButton"
+				{
+					"ControlName"	"Button"
+					"FieldName"		"DownButton"
+					"visible"		"0"
+				}
+			}
+		}
+
+		"BelowDarken"
+		{
+			"ControlName"	"EditablePanel"
+			"fieldname"		"BelowDarken"
+			"xpos"			"cs-0.5"
+			"ypos"			"rs1-10"
+			"zpos"			"499"
+			"wide"			"f20"
+			"tall"			"110"
+			"visible"		"1"	
+			"PaintBackgroundType"	"0"
+			"proportionaltoparent"	"1"
+			"mouseinputenabled"	"0"
+
+			"bgcolor_override"	"0 0 0 100"
+		}
+	}
 	
 	"CreateServerButton"
 	{
 		"ControlName"	"EditablePanel"
 		"fieldname"		"CreateServerButton"
 		"xpos"			"c-145"
-		"ypos"			"120"
+		"ypos"			"171"
 		"zpos"			"12"
 		"wide"			"20"
 		"tall"			"20"
@@ -621,7 +785,7 @@
 		"fieldName"		"WatchStreamButton"
 		"xpos"			"c188"
 		"ypos"			"28"
-		"zpos"			"1"
+		"zpos"			"4"
 		"wide"			"32"
 		"tall"			"32"
 		"autoResize"	"0"
@@ -664,7 +828,7 @@
 			"sound_released"	"UI/buttonclickrelease.wav"
 			"paintbackground"	"0"
 			"paintborder"		"0"
-			"image_drawcolor"	"235 226 202 255"
+			"image_drawcolor"	"200 200 200 255"
 			"image_armedcolor"	"255 255 255 255"
 
 			"SubImage"
@@ -694,7 +858,7 @@
 		"fieldName"		"StreamListPanel"
 		"xpos"			"c5"
 		"ypos"			"65"
-		"zpos"			"1"
+		"zpos"			"4"
 		"wide"			"300"
 		"tall"			"350"
 		"visible"		"0"
@@ -712,7 +876,7 @@
 		"fieldName"		"QuestLogButton"
 		"xpos"			"c228"
 		"ypos"			"28"
-		"zpos"			"1"
+		"zpos"			"4"
 		"wide"			"32"
 		"tall"			"32"
 		"autoResize"	"0"
@@ -770,7 +934,7 @@
 				"visible"		"1"
 				"enabled"		"1"
 				"scaleImage"	"1"
-				"image"			"button_quests"
+				"image"			"button_quests_pda"
 
 				"proportionaltoparent"	"1"
 				"mouseinputenabled"	"0"
@@ -837,7 +1001,7 @@
 		"fieldName"		"MOTD_ShowButtonPanel"
 		"xpos"			"c268"
 		"ypos"			"28"
-		"zpos"			"1"
+		"zpos"			"4"
 		"wide"			"32"
 		"tall"			"32"
 		"autoResize"	"0"
@@ -904,7 +1068,7 @@
 		"fieldName"		"MOTD_Panel"
 		"xpos"			"c5"
 		"ypos"			"65"
-		"zpos"			"1"
+		"zpos"			"4"
 		"wide"			"300"
 		"tall"			"350"
 		"visible"		"0"
@@ -1433,7 +1597,7 @@
 		"ControlName"	"EditablePanel"
 		"fieldname"		"TrainingButton"
 		"xpos"			"c-295"
-		"ypos"			"240"
+		"ypos"			"190"
 		"zpos"			"11"
 		"wide"			"190"
 		"tall"			"20"
@@ -1573,7 +1737,7 @@
 		"ControlName"	"EditablePanel"
 		"fieldname"		"CharacterSetupButton"
 		"xpos"			"c-295"
-		"ypos"			"260"
+		"ypos"			"210"
 		"zpos"			"11"
 		"wide"			"190"
 		"tall"			"20"
@@ -1639,7 +1803,7 @@
 		"ControlName"	"EditablePanel"
 		"fieldname"		"GeneralStoreButton"
 		"xpos"			"c-295"
-		"ypos"			"280"
+		"ypos"			"230"
 		"zpos"			"11"
 		"wide"			"190"
 		"tall"			"20"
@@ -1720,7 +1884,7 @@
 		"ControlName"	"EditablePanel"
 		"fieldname"		"ReplayBrowserButton"
 		"xpos"			"c-295"
-		"ypos"			"300"
+		"ypos"			"250"
 		"zpos"			"11"
 		"wide"			"190"
 		"tall"			"20"
@@ -1786,7 +1950,7 @@
 		"ControlName"	"EditablePanel"
 		"fieldname"		"SteamWorkshopButton"
 		"xpos"			"c-295"
-		"ypos"			"320"
+		"ypos"			"270"
 		"zpos"			"11"
 		"wide"			"190"
 		"tall"			"20"
@@ -1849,379 +2013,12 @@
 	}
 	
 	// command comes from GameMenu.res
-	"QuickplayButton"
-	{
-		"ControlName"	"EditablePanel"
-		"fieldname"		"QuickplayButton"
-		"xpos"			"c-295"
-		"ypos"			"200"
-		"zpos"			"11"
-		"wide"			"190"
-		"tall"			"20"
-		"visible"		"1"
-		"PaintBackgroundType"	"0"
-
-		"navDown"		"PlayPVEButton"
-		"navRight"		"Notifications_ShowButtonPanel"
-		"navToRelay"	"SubButton"
-
-		"SubButton"
-		{
-			"ControlName"	"CExImageButton"
-			"fieldName"		"SubButton"
-			"xpos"			"0"
-			"ypos"			"0"
-			"wide"			"190"
-			"tall"			"20"
-			"autoResize"	"0"
-			"pinCorner"		"3"
-			"visible"		"1"
-			"enabled"		"1"
-			"tabPosition"	"0"
-			"textinsetx"	"25"
-			"use_proportional_insets" "1"
-			"font"			"HudFontSmallBold"
-			"textAlignment"	"west"
-			"dulltext"		"0"
-			"brighttext"	"0"
-			"default"		"1"
-			"sound_depressed"	"UI/buttonclick.wav"
-			"sound_released"	"UI/buttonclickrelease.wav"
-			
-			"border_default"	""
-			"border_armed"		""
-			"paintbackground"	"0"
-			
-			"defaultFgColor_override" "FlameGrey"
-			"armedFgColor_override" "FlameWhite"
-			"depressedFgColor_override" "FlameGrey"
-			
-			"image_drawcolor"	"165 165 165 255"
-			"image_armedcolor"	"255 50 50 255"
-
-			"SubImage"
-			{
-				"ControlName"	"ImagePanel"
-				"fieldName"		"SubImage"
-				"xpos"			"3"
-				"ypos"			"3"
-				"zpos"			"1"
-				"wide"			"14"
-				"tall"			"14"
-				"visible"		"1"
-				"enabled"		"1"
-				"scaleImage"	"1"
-			}
-		}
-	}
-
-
-	// command comes from GameMenu.res
-	"ResumeGameButton"
-	{
-		"ControlName"	"EditablePanel"
-		"fieldname"		"ResumeGameButton"
-		"xpos"			"c-295"
-		"ypos"			"200"
-		"zpos"			"11"
-		"wide"			"190"
-		"tall"			"20"
-		"visible"		"1"
-		"PaintBackgroundType"	"0"
-
-		"navUp"			"ServerBrowserButton"
-		"navDown"		"QuickplayChangeButton"
-		"navRight"		"CallVoteButton"
-		"navToRelay"	"SubButton"
-
-		"SubButton"
-		{
-			"ControlName"	"CExImageButton"
-			"fieldName"		"SubButton"
-			"xpos"			"0"
-			"ypos"			"0"
-			"wide"			"190"
-			"tall"			"20"
-			"autoResize"	"0"
-			"pinCorner"		"3"
-			"visible"		"1"
-			"enabled"		"1"
-			"tabPosition"	"0"
-			"textinsetx"	"25"
-			"use_proportional_insets" "1"
-			"font"			"HudFontSmallBold"
-			"textAlignment"	"west"
-			"dulltext"		"0"
-			"brighttext"	"0"
-			"default"		"1"
-			"sound_depressed"	"UI/buttonclick.wav"
-			"sound_released"	"UI/buttonclickrelease.wav"
-			
-			"border_default"	""
-			"border_armed"		""
-			"paintbackground"	"0"
-			
-			"defaultFgColor_override" "FlameGrey"
-			"armedFgColor_override" "FlameWhite"
-			"depressedFgColor_override" "FlameGrey"
-			
-			"image_drawcolor"	"165 165 165 255"
-			"image_armedcolor"	"255 50 50 255"
-
-			"SubImage"
-			{
-				"ControlName"	"ImagePanel"
-				"fieldName"		"SubImage"
-				"xpos"			"3"
-				"ypos"			"3"
-				"zpos"			"1"
-				"wide"			"14"
-				"tall"			"14"
-				"visible"		"1"
-				"enabled"		"1"
-				"scaleImage"	"1"
-			}
-		}
-	}
-
-	// command comes from GameMenu.res	
-	"QuickplayChangeButton"
-	{
-		"ControlName"	"EditablePanel"
-		"fieldname"		"QuickplayChangeButton"
-		"xpos"			"c-295"
-		"ypos"			"180"
-		"zpos"			"11"
-		"wide"			"190"
-		"tall"			"20"
-		"visible"		"1"
-		"PaintBackgroundType"	"0"
-
-		"navUp"			"ResumeGameButton"
-		"navDown"		"ChangeServerButton"
-		"navRight"		"Notifications_ShowButtonPanel"
-		"navToRelay"	"SubButton"
-
-		"SubButton"
-		{
-			"ControlName"	"CExImageButton"
-			"fieldName"		"SubButton"
-			"xpos"			"0"
-			"ypos"			"0"
-			"wide"			"190"
-			"tall"			"20"
-			"autoResize"	"0"
-			"pinCorner"		"3"
-			"visible"		"1"
-			"enabled"		"1"
-			"tabPosition"	"0"
-			"textinsetx"	"25"
-			"use_proportional_insets" "1"
-			"font"			"HudFontSmallBold"
-			"textAlignment"	"west"
-			"dulltext"		"0"
-			"brighttext"	"0"
-			"default"		"1"
-			"sound_depressed"	"UI/buttonclick.wav"
-			"sound_released"	"UI/buttonclickrelease.wav"
-			
-			"border_default"	""
-			"border_armed"		""
-			"paintbackground"	"0"
-			
-			"defaultFgColor_override" "FlameGrey"
-			"armedFgColor_override" "FlameWhite"
-			"depressedFgColor_override" "FlameGrey"
-			
-			"image_drawcolor"	"165 165 165 255"
-			"image_armedcolor"	"255 50 50 255"
-
-			"SubImage"
-			{
-				"ControlName"	"ImagePanel"
-				"fieldName"		"SubImage"
-				"xpos"			"3"
-				"ypos"			"3"
-				"zpos"			"1"
-				"wide"			"14"
-				"tall"			"14"
-				"visible"		"1"
-				"enabled"		"1"
-				"scaleImage"	"1"
-			}
-		}
-	}
-
-	// command comes from GameMenu.res
-	"PlayPVEButton"
-	{
-		"ControlName"	"EditablePanel"
-		"fieldname"		"PlayPVEButton"
-		"xpos"			"c-295"
-		"ypos"			"180"
-		"zpos"			"11"
-		"wide"			"190"
-		"tall"			"20"
-		"visible"		"1"
-		"PaintBackgroundType"	"0"
-
-		"navUp"			"QuickplayButton"
-		"navDown"		"ServerBrowserButton"
-		"navRight"		"Notifications_ShowButtonPanel"
-		"navToRelay"	"SubButton"
-
-		"SubButton"
-		{
-			"ControlName"	"CExImageButton"
-			"fieldName"		"SubButton"
-			"xpos"			"0"
-			"ypos"			"0"
-			"wide"			"190"
-			"tall"			"20"
-			"autoResize"	"0"
-			"pinCorner"		"3"
-			"visible"		"1"
-			"enabled"		"1"
-			"tabPosition"	"0"
-			"textinsetx"	"25"
-			"use_proportional_insets" "1"
-			"font"			"HudFontSmallBold"
-			"textAlignment"	"west"
-			"dulltext"		"0"
-			"brighttext"	"0"
-			"default"		"1"
-			"sound_depressed"	"UI/buttonclick.wav"
-			"sound_released"	"UI/buttonclickrelease.wav"
-			
-			"border_default"	""
-			"border_armed"		""
-			"paintbackground"	"0"
-			
-			"defaultFgColor_override" "FlameGrey"
-			"armedFgColor_override" "FlameWhite"
-			"depressedFgColor_override" "FlameGrey"
-			
-			"image_drawcolor"	"165 165 165 255"
-			"image_armedcolor"	"255 50 50 255"
-
-			"SubImage"
-			{
-				"ControlName"	"ImagePanel"
-				"fieldName"		"SubImage"
-				"xpos"			"3"
-				"ypos"			"3"
-				"zpos"			"1"
-				"wide"			"14"
-				"tall"			"14"
-				"visible"		"1"
-				"enabled"		"1"
-				"scaleImage"	"1"
-			}
-		}
-	}
-	
-	"PlayCompetitiveButton"
-	{
-		"ControlName"	"EditablePanel"
-		"fieldname"		"PlayCompetitiveButton"
-		"xpos"			"c-295"
-		"ypos"			"160"
-		"zpos"			"11"
-		"wide"			"190"
-		"tall"			"20"
-		"visible"		"1"
-		"enabled"		"1"
-		"PaintBackgroundType"	"0"
-
-		"navUp"			"PlayPVEButton"
-		"navDown"		"ServerBrowserButton"
-		"navRight"		"Notifications_ShowButtonPanel"
-		"navToRelay"	"SubButton"
-
-		"SubButton"
-		{
-			"ControlName"	"CExImageButton"
-			"fieldName"		"SubButton"
-			"xpos"			"0"
-			"ypos"			"0"
-			"wide"			"190"
-			"tall"			"20"
-			"autoResize"	"0"
-			"pinCorner"		"3"
-			"visible"		"1"
-			"enabled"		"1"
-			"tabPosition"	"0"
-			"textinsetx"	"25"
-			"use_proportional_insets" "1"
-			"font"			"HudFontSmallBold"
-			"textAlignment"	"west"
-			"dulltext"		"0"
-			"brighttext"	"0"
-			"default"		"1"
-			"sound_depressed"	"UI/buttonclick.wav"
-			"sound_released"	"UI/buttonclickrelease.wav"
-			
-			"border_default"	""
-			"border_armed"		""
-			"paintbackground"	"0"
-			
-			"defaultFgColor_override" "FlameGrey"
-			"armedFgColor_override" "FlameWhite"
-			"depressedFgColor_override" "FlameGrey"
-			
-			"image_drawcolor"	"165 165 165 255"
-			"image_armedcolor"	"255 50 50 255"
-
-			"SubImage"
-			{
-				"ControlName"	"ImagePanel"
-				"fieldName"		"SubImage"
-				"xpos"			"3"
-				"ypos"			"3"
-				"zpos"			"1"
-				"wide"			"14"
-				"tall"			"14"
-				"visible"		"1"
-				"enabled"		"1"
-				"scaleImage"	"1"
-			}
-		}
-
-		"CompetitiveBetaImage"
-		{
-			"ControlName"	"ImagePanel"
-			"fieldname"		"CompetitiveBetaImage"
-			"xpos"			"0"
-			"ypos"			"0"
-			"zpos"			"5"
-			"wide"			"20"
-			"tall"			"20"
-			"visible"		"0"
-			"image"			"beta"
-			"scaleImage"	"1"
-			"pin_to_sibling"		"PlayCompetitiveButton"
-			
-			if_competitive
-			{
-				"visible"		"1"
-				"enabled"		"1"
-			}
-			if_competitive_stress_event
-			{
-				"visible" 		"1"
-				"enabled"		"1"
-				"image"	"beta_stress"
-			}
-		}
-	}
-	
-	// command comes from GameMenu.res
 	"ServerBrowserButton"
 	{
 		"ControlName"	"EditablePanel"
 		"fieldname"		"ServerBrowserButton"
 		"xpos"			"c-295"
-		"ypos"			"120"
+		"ypos"			"170"
 		"zpos"			"11"
 		"wide"			"190"
 		"tall"			"20"
@@ -2289,7 +2086,7 @@
 		"ControlName"	"EditablePanel"
 		"fieldname"		"ChangeServerButton"
 		"xpos"			"c-295"
-		"ypos"			"120"
+		"ypos"			"190"
 		"zpos"			"11"
 		"wide"			"190"
 		"tall"			"20"
@@ -2355,8 +2152,8 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldname"		"ReportPlayerButton"
-		"xpos"			"c-180"
-		"ypos"			"150"
+		"xpos"			"c-160"
+		"ypos"			"165"
 		"zpos"			"12"
 		"wide"			"20"
 		"tall"			"20"
@@ -2422,8 +2219,8 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldname"		"CallVoteButton"
-		"xpos"			"c-160"
-		"ypos"			"150"
+		"xpos"			"c-140"
+		"ypos"			"165"
 		"zpos"			"12"
 		"wide"			"20"
 		"tall"			"20"
@@ -2488,8 +2285,8 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldname"		"MutePlayersButton"
-		"xpos"			"c-140"
-		"ypos"			"150"
+		"xpos"			"c-120"
+		"ypos"			"165"
 		"zpos"			"12"
 		"wide"			"20"
 		"tall"			"20"
@@ -2555,8 +2352,8 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldname"		"RequestCoachButton"
-		"xpos"			"c-120"
-		"ypos"			"150"
+		"xpos"			"c-100"
+		"ypos"			"165"
 		"zpos"			"12"
 		"wide"			"20"
 		"tall"			"20"
@@ -2622,9 +2419,9 @@
 	{
 		"ControlName"	"CExImageButton"
 		"fieldName"		"NewUserForumsButton"
-		"xpos"			"c-200"
+		"xpos"			"c-180"
 		"ypos"			"460"
-		"zpos"			"2"
+		"zpos"			"3"
 		"wide"			"20"
 		"tall"			"20"
 		"autoResize"	"0"
@@ -2678,7 +2475,7 @@
 	{
 		"ControlName"	"CExImageButton"
 		"fieldName"		"AchievementsButton"
-		"xpos"			"c-180"
+		"xpos"			"c-160"
 		"ypos"			"460"
 		"zpos"			"3"
 		"wide"			"20"
@@ -2725,7 +2522,7 @@
 	{
 		"ControlName"	"CExImageButton"
 		"fieldName"		"CommentaryButton"
-		"xpos"			"c-160"
+		"xpos"			"c-140"
 		"ypos"			"460"
 		"zpos"			"4"
 		"wide"			"20"
@@ -2737,7 +2534,7 @@
 		"tabPosition"	"0"
 		"labelText"		""
 		"default"		"1"
-		"Command"		"OpenLoadSingleplayerCommentaryDialog"
+		"Command"		"engine showconsole"
 
 		"navUp"			"VRModeButton"
 		"navLeft"		"AchievementsButton"
@@ -2776,9 +2573,9 @@
 	{
 		"ControlName"	"CExImageButton"
 		"fieldName"		"CoachPlayersButton"
-		"xpos"			"c-140"
+		"xpos"			"c-120"
 		"ypos"			"460"
-		"zpos"			"1"
+		"zpos"			"3"
 		"wide"			"20"
 		"tall"			"20"
 		"autoResize"	"0"
@@ -2827,9 +2624,9 @@
 	{
 		"ControlName"	"CExImageButton"
 		"fieldName"		"ReportBugButton"
-		"xpos"			"c-120"
+		"xpos"			"c-100"
 		"ypos"			"460"
-		"zpos"			"1"
+		"zpos"			"3"
 		"wide"			"20"
 		"tall"			"20"
 		"autoResize"	"0"
@@ -2879,8 +2676,8 @@
 		"ControlName"	"CExImageButton"
 		"fieldName"		"TF2SettingsButton"
 		"xpos"			"c-295"
-		"ypos"			"380"
-		"zpos"			"1"
+		"ypos"			"310"
+		"zpos"			"4"
 		"wide"			"190"
 		"tall"			"20"
 		"autoResize"	"0"
@@ -2936,8 +2733,8 @@
 		"ControlName"	"CExImageButton"
 		"fieldName"		"SettingsButton"
 		"xpos"			"c-295"
-		"ypos"			"360"
-		"zpos"			"1"
+		"ypos"			"290"
+		"zpos"			"2"
 		"wide"			"190"
 		"tall"			"20"
 		"autoResize"	"0"
@@ -2988,120 +2785,6 @@
 			"scaleImage"	"1"
 		}
 	}
-	
-	"QuitButton"
-	{
-		"ControlName"	"CExImageButton"
-		"fieldName"		"QuitButton"
-		"xpos"			"c-295"
-		"ypos"			"420"
-		"zpos"			"1"
-		"wide"			"190"
-		"tall"			"20"
-		"autoResize"	"0"
-		"pinCorner"		"3"
-		"visible"		"1"
-		"enabled"		"1"
-		"tabPosition"	"0"
-		"labelText"		"Quit"
-		"font"			"HudFontSmallBold"
-		"textAlignment"	"west"
-		"textinsetx"	"25"
-		use_proportional_insets " 1"
-		"dulltext"		"0"
-		"brighttext"	"0"
-		"default"		"1"
-		"Command"		"engine replay_confirmquit"
-
-		"navUp"			"VRModeButton"
-		"navDown"		"DisconnectButton"
-		"navLeft"		"DisconnectButton"
-		"navRight"		"NewUserForumsButton"
-
-		"sound_depressed"	"UI/buttonclick.wav"
-		"sound_released"	"UI/buttonclickrelease.wav"
-		
-		"border_default"	""
-		"border_armed"		""
-		"paintbackground"	"0"
-		
-		"defaultFgColor_override" "FlameGrey"
-		"armedFgColor_override" "FlameWhite"
-		"depressedFgColor_override" "FlameGrey"
-			
-		"image_drawcolor"	"165 165 165 255"
-		"image_armedcolor"	"255 50 50 255"
-		"SubImage"
-		{
-			"ControlName"	"ImagePanel"
-			"fieldName"		"SubImage"
-			"xpos"			"3"
-			"ypos"			"3"
-			"zpos"			"1"
-			"wide"			"14"
-			"tall"			"14"
-			"visible"		"1"
-			"enabled"		"1"
-			"scaleImage"	"1"
-			"image"			"glyph_quit"
-			"scaleImage"	"1"
-		}	
-	}			
-	
-	"DisconnectButton"
-	{
-		"ControlName"	"CExImageButton"
-		"fieldName"		"DisconnectButton"
-		"xpos"			"c-295"
-		"ypos"			"420"
-		"zpos"			"1"
-		"wide"			"190"
-		"tall"			"20"
-		"autoResize"	"0"
-		"pinCorner"		"3"
-		"visible"		"1"
-		"enabled"		"1"
-		"tabPosition"	"0"
-		"labelText"		"Disconnect"
-		"font"			"HudFontSmallBold"
-		"textAlignment"	"west"
-		"textinsetx"	"25"
-		use_proportional_insets " 1"
-		"dulltext"		"0"
-		"brighttext"	"0"
-		"default"		"1"
-		"Command"		"engine disconnect"
-		"sound_depressed"	"UI/buttonclick.wav"
-		"sound_released"	"UI/buttonclickrelease.wav"
-
-		"navUp"			"QuitButton"
-		"navRight"		"NewUserForumsButton"
-		
-		"border_default"	""
-		"border_armed"		""
-		"paintbackground"	"0"
-		
-		"defaultFgColor_override" "FlameGrey"
-		"armedFgColor_override" "FlameWhite"
-		"depressedFgColor_override" "FlameGrey"
-			
-		"image_drawcolor"	"165 165 165 255"
-		"image_armedcolor"	"255 50 50 255"
-		"SubImage"
-		{
-			"ControlName"	"ImagePanel"
-			"fieldName"		"SubImage"
-			"xpos"			"3"
-			"ypos"			"3"
-			"zpos"			"1"
-			"wide"			"14"
-			"tall"			"14"
-			"visible"		"1"
-			"enabled"		"1"
-			"scaleImage"	"1"
-			"image"			"glyph_quit"
-		}				
-	}			
 	
 	"BackToReplaysButton"
 	{

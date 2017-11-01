@@ -1,41 +1,5 @@
 "GameMenu" [$WIN32]
 {
-	"ResumeGameButton"
-	{
-		"label"			"#MMenu_ResumeGame"
-		"command"		"ResumeGame"
-		"OnlyInGame"	"1"
-		"subimage" "icon_resume"
-	}
-	"QuickplayButton"
-	{
-		"label" "Play Casual" 
-		"command" "play_casual"
-		"subimage" "glyph_multiplayer"
-		"OnlyAtMenu" "1"
-	}
-	"QuickplayChangeButton"
-	{
-		"label" "Play Casual" 
-		"command" "play_casual"
-		"subimage" "glyph_server"
-		"OnlyInGame" "1"
-	}
-	"PlayPVEButton"
-	{
-		"label" "Mann vs Machine" 
-		"command" "play_mvm"
-		"subimage" "glyph_coop"
-		"OnlyAtMenu" "1"
-	}
-	"PlayCompetitiveButton"
-	{
-		"label" "#MMenu_PlayComp" 
-		"command" "play_competitive"
-		"subimage" "glyph_practice"
-		"OnlyAtMenu" "1"
-		"OnlyWhenCompetitiveEnabled" "1"
-	}
 	"ServerBrowserButton"
 	{
 		"label" "Server Browser" 
