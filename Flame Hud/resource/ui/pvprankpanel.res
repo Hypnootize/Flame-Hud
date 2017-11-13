@@ -191,6 +191,7 @@
 			"ypos"			"cs-0.5"
 			"tall"			"35"
 			"wide"			"505"
+			"border"		"MainMenuBGBorder"
 		}
 
 		"NameLabel"
@@ -213,6 +214,7 @@
 			if_mini
 			{
 				"visible"	"0"
+				"fgcolor_override"	"TanLight"
 			}
 		}
 
@@ -237,6 +239,7 @@
 			{
 				"xpos"	"67"
 				"ypos"	"4"
+				"fgcolor_override"	"TanLight"
 			}
 		}
 
@@ -285,6 +288,11 @@
 					"textAlignment"	"south-west"
 					"labelText"		"%current_xp%"
 					"proportionaltoparent"	"1"
+					
+					if_mini
+					{
+						"fgcolor_override"	"TanLight"
+					}
 				}
 
 				"NextLevelXPLabel"
@@ -303,6 +311,11 @@
 					"textAlignment"	"south-east"
 					"labelText"		"%next_level_xp%"
 					"proportionaltoparent"	"1"
+					
+					if_mini
+					{
+						"fgcolor_override"	"TanLight"
+					}
 				}
 
 				"ProgressBarsContainer"
