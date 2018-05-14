@@ -22,8 +22,7 @@
 		
 		if_match
 		{
-			"wide"			"0"
-			"visible"		"0"
+			"xpos"			"9999"
 		}
 	}
 	"TimePanelProgressBar"
@@ -46,8 +45,7 @@
 		
 		if_match
 		{
-			"wide"			"0"
-			"visible"		"0"
+			"xpos"			"9999"
 		}
 	}
 	"WaitingForPlayersLabel"
@@ -70,13 +68,7 @@
 		
 		if_match
 		{
-			"proportionaltoparent"	"1"
-			"xpos"					"cs-0.5"
-			"ypos"					"17"
-			"ypos_minmode"			"17"
-			"font"					"HudFontSmallestBold"
-			"font_hidef"			"HudFontSmallestBold"
-			"font_lodef"			"HudFontSmallestBold"
+			"xpos"			"9999"
 		}
 	}			
 	"WaitingForPlayersBG"
@@ -95,7 +87,7 @@
 		
 		if_match
 		{
-			"wide"	"0"
+			"xpos"			"9999"
 		}
 	}
 	"OvertimeLabel"
@@ -118,12 +110,7 @@
 		
 		if_match
 		{
-			"proportionaltoparent"	"1"
-			"xpos"					"cs-0.5"
-			"ypos"					"20"
-			"font"					"HudFontSmallestBold"
-			"font_hidef"			"HudFontSmallestBold"
-			"font_lodef"			"HudFontSmallestBold"
+			"xpos"			"9999"
 		}
 	}			
 	"OvertimeBG"
@@ -142,7 +129,7 @@
 		
 		if_match
 		{
-			"wide"	"0"
+			"xpos"			"9999"
 		}
 	}
 	"SuddenDeathLabel"
@@ -165,13 +152,7 @@
 		
 		if_match
 		{
-			"proportionaltoparent"	"1"
-			"xpos"					"cs-0.5"
-			"ypos"					"17"
-			"ypos_minmode"			"17"
-			"font"					"HudFontSmallestBold"
-			"font_hidef"			"HudFontSmallestBold"
-			"font_lodef"			"HudFontSmallestBold"
+			"xpos"			"9999"
 		}
 	}			
 	"SuddenDeathBG"
@@ -190,7 +171,7 @@
 		
 		if_match
 		{
-			"wide"	"0"
+			"xpos"			"9999"
 		}
 	}	
 	"SetupLabel"
@@ -213,13 +194,7 @@
 		
 		if_match
 		{
-			"proportionaltoparent"	"1"
-			"xpos"					"cs-0.5"
-			"ypos"					"17"
-			"ypos_minmode"			"17"
-			"font"					"HudFontSmallestBold"
-			"font_hidef"			"HudFontSmallestBold"
-			"font_lodef"			"HudFontSmallestBold"
+			"xpos"			"9999"
 		}
 	}	
 	"SetupBG"
@@ -238,7 +213,7 @@
 		
 		if_match
 		{
-			"wide"	"0"
+			"xpos"			"9999"
 		}
 	}
 	"ServerTimeLimitLabel"
@@ -262,10 +237,7 @@
 		
 		if_match
 		{
-			"proportionaltoparent"	"1"
-			"xpos"					"cs-0.5"
-			"ypos"					"20"
-			"font"					"HudFontSmallestBold"
+			
 		}
 	}	
 	"ServerTimeLimitLabelBG"
@@ -287,7 +259,7 @@
 		
 		if_match
 		{
-			"wide"	"0"
+			"xpos"			"9999"
 		}
 	}
 }

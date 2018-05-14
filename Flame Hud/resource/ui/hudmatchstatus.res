@@ -289,15 +289,7 @@
 
 		if_match
 		{
-			"zpos"					"5"
-			"ypos_minmode"			"0"
-			"delta_item_x"			"45"
-			"delta_item_start_y"	"27"
-			"delta_item_end_y"		"35"
-			"PositiveColor"			"0 255 0 255"
-			"NegativeColor"			"255 0 0 255"
-			"delta_lifetime"		"2"
-			"delta_item_font"		"HudFontSmall"
+			"ypos"				"10"
 		}
 		
 		"TimePanelValue"
@@ -315,17 +307,6 @@
 			"enabled"		"1"
 			"textAlignment"		"center"
 			"labelText"		"0:00"
-
-			if_match
-			{
-				"proportionaltoparent"	"1"
-
-				"xpos"			"cs-0.5"
-				"ypos"			"12"
-				"ypos_minmode"	"12"
-				"tall"			"10"
-				"font"			"HudFontSmall"
-			}
 		}	
 	}
 	
