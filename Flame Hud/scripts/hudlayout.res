@@ -1,3 +1,5 @@
+#base "../scripts/Crosshairs/crosshairs.res"
+
 "Resource/HudLayout.res"
 {
 	HudPlayerStatus
@@ -795,6 +797,7 @@
 		"enabled"				"1"
 		"xpos"					"c-140"
 		"ypos"					"r250"
+		"zpos"					"20"
 		"wide"					"f0"
 		"tall"					"250"
 	}
@@ -805,7 +808,8 @@
 		"visible"				"1"
 		"enabled"				"1"
 		"xpos"					"c-225"
-		"ypos"					"250"
+		"ypos"					"260"
+		"zpos"					"20"
 		"wide"					"450"
 		"tall"					"218"
 	}
@@ -817,6 +821,7 @@
 		"enabled"				"1"
 		"xpos"					"c-150"
 		"ypos"					"255"
+		"zpos"					"20"
 		"wide"					"300"
 		"tall"					"215"
 	}
@@ -828,8 +833,8 @@
 		"enabled"		"1"
 		"xpos"			"c-133"
 		"ypos"			"270"
-		"wide"			"266"
-		"tall"			"120"
+		"wide"			"0"
+		"tall"			"0"
 	}
 	
 	FreezePanel
@@ -912,6 +917,7 @@
 		"enabled" 		"1"
 		"xpos"			"0"
 		"ypos"			"0"
+		"zpos"			"20"
 		"wide"			"f0"
 		"tall"			"480"
 		"PaintBackgroundType"	"0"
@@ -924,6 +930,7 @@
 		"enabled" 		"1"
 		"xpos"			"0"
 		"ypos"			"0"
+		"zpos"			"20"
 		"wide"			"f0"
 		"tall"			"480"
 		"PaintBackgroundType"	"0"
@@ -936,6 +943,7 @@
 		"enabled" 		"1"
 		"xpos"			"0"
 		"ypos"			"0"
+		"zpos"			"20"
 		"wide"			"f0"
 		"tall"			"480"
 		"PaintBackgroundType"	"0"
@@ -948,6 +956,7 @@
 		"enabled" 		"1"
 		"xpos"			"0"
 		"ypos"			"0"
+		"zpos"			"20"
 		"wide"			"f0"
 		"tall"			"480"	[$WIN32]
 		"PaintBackgroundType"	"0"
@@ -1315,6 +1324,7 @@
 		"enabled" 		"1"
 		"xpos"			"0"
 		"ypos"			"0"
+		"zpos"			"20"
 		"wide"			"f0"
 		"tall"			"480"
 		"PaintBackgroundType"	"0"

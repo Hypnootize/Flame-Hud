@@ -1,3 +1,4 @@
+#base "../resource/crosshairs/Crosshair Fonts.res"
 //
 // TRACKER SCHEME RESOURCE FILE
 //
@@ -18,7 +19,29 @@ Scheme
 	//////////////////////// COLORS ///////////////////////////
 	Colors
 	{
-		// base colors
+		//////////////////////////////////////////////////
+		/////////////////FLAME HUD COLORS/////////////////
+		//////////////////////////////////////////////////
+		
+		"FlameBlack"		"0 0 0 255"
+		"FlameWhite"		"255 255 255 255"
+		"FlameGrey"			"165 165 165 255"
+		"FlameDarkGrey"		"30 30 30 255"
+		"FlameYellow"		"255 200 50 255"
+		"FlameRed"			"255 50 50 255"
+		"FlameBlue"			"50 200 255 255"
+		"FlameGreen"		"50 255 50 255"
+		"FlameOrange"		"160 80 60 255"
+		"FlameTransBlack"	"0 0 0 225"
+		"FlameTransWhite"	"255 255 255 225"
+		"FlameTransGrey"	"165 165 165 225"
+		
+		"FlameMenuLight"	"160 80 60 75"
+		"FlameMenuBorder"	"160 80 60 255"
+		
+		//////////////////////////////////////////////////
+		////////////////////BASE COLORS///////////////////
+		//////////////////////////////////////////////////
 		
 		"Orange"			"178 82 22 255"
 		"OrangeDim"			"178 82 22 120"
@@ -44,22 +67,6 @@ Scheme
 		"PartyMember4"	"232 184 99  255"
 		"PartyMember5"	"255 118 108 255"
 		"PartyMember6"	"255 133 255 255"
-		
-		"FlameBlack"		"0 0 0 255"
-		"FlameWhite"		"255 255 255 255"
-		"FlameGrey"			"165 165 165 255"
-		"FlameDarkGrey"		"30 30 30 255"
-		"FlameYellow"		"255 200 50 255"
-		"FlameRed"			"255 50 50 255"
-		"FlameBlue"			"50 200 255 255"
-		"FlameGreen"		"50 255 50 255"
-		"FlameOrange"		"160 80 60 255"
-		"FlameTransBlack"	"0 0 0 225"
-		"FlameTransWhite"	"255 255 255 225"
-		"FlameTransGrey"	"165 165 165 225"
-		
-		"FlameMenuLight"	"160 80 60 75"
-		"FlameMenuBorder"	"160 80 60 255"
 		
 		"White"				"255 255 255 255"
 		"Red"				"192 28 0 140"

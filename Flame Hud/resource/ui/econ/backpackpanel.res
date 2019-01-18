@@ -412,8 +412,8 @@
 	{
 		"ControlName"	"CExButton"
 		"fieldName"		"PrevPageButton"
-		"xpos"			"c-65"
-		"ypos"			"340"
+		"xpos"			"c-319"
+		"ypos"			"55"
 		"zpos"			"1"
 		"wide"			"40"
 		"tall"			"25"
@@ -447,8 +447,8 @@
 	{
 		"ControlName"	"CExButton"
 		"fieldName"		"PrevPageButtonHidden"
-		"xpos"			"c-65"
-		"ypos"			"340"
+		"xpos"			"c-319"
+		"ypos"			"55"
 		"zpos"			"1"
 		"wide"			"0"
 		"tall"			"25"
@@ -466,6 +466,8 @@
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
 		
+		"paintborder"	"0"
+		
 		"defaultBgColor_override"	"Blank"
 		"armedBgColor_override"		"Blank"
 		"depressedBgColor_override"	"Blank"
@@ -473,9 +475,6 @@
 		"defaultFgColor_override"	"FlameGrey"
 		"armedFgColor_override" 	"FlameWhite"
 		"depressedFgColor_override" "FlameGrey"
-		
-		"border_default"			""
-		"border_armed"				""
 	}			
 	
 	"CurPageLabel"
@@ -485,8 +484,8 @@
 		"font"			"HudFontSmallBold"
 		"labelText"		"%backpackpage%"
 		"textAlignment"	"center"
-		"xpos"			"c-20"
-		"ypos"			"340"
+		"xpos"			"c-270"
+		"ypos"			"55"
 		"zpos"			"1"
 		"wide"			"40"
 		"tall"			"25"
@@ -501,8 +500,8 @@
 	{
 		"ControlName"	"CExButton"
 		"fieldName"		"NextPageButton"
-		"xpos"			"c25"
-		"ypos"			"340"
+		"xpos"			"c-220"
+		"ypos"			"55"
 		"zpos"			"1"
 		"wide"			"40"
 		"tall"			"25"
@@ -522,6 +521,8 @@
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
 		
+		"paintborder"	"0"
+		
 		"defaultBgColor_override"	"Blank"
 		"armedBgColor_override"		"Blank"
 		"depressedBgColor_override"	"Blank"
@@ -529,17 +530,14 @@
 		"defaultFgColor_override"	"FlameGrey"
 		"armedFgColor_override" 	"FlameWhite"
 		"depressedFgColor_override" "FlameGrey"
-		
-		"border_default"			""
-		"border_armed"				""
 	}
 	
 	"NextPageButtonHidden"
 	{
 		"ControlName"	"CExButton"
 		"fieldName"		"NextPageButtonHidden"
-		"xpos"			"c50"
-		"ypos"			"340"
+		"xpos"			"c-220"
+		"ypos"			"55"
 		"zpos"			"1"
 		"wide"			"0"
 		"tall"			"0"

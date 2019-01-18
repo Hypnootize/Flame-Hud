@@ -30,6 +30,7 @@
 		"clientinsetx_override"			"0"
 		"sheetinset_bottom"				"0"
 	}
+	
 	"BackgroundHeader"
 	{
 		"ControlName"	"ImagePanel"
@@ -38,12 +39,12 @@
 		"ypos"			"0"
 		"zpos"			"-2"
 		"wide"			"f0"
-		"tall"			"34"
+		"tall"			"55"
 		"visible"		"1"
 		"image"			""
 		"fillcolor"		"FlameMenuBorder"
 		"tileImage"		"1"
-	}
+	}				
 	"BackgroundFooter"
 	{
 		"ControlName"	"ImagePanel"
@@ -58,7 +59,8 @@
 		"image"			""
 		"fillcolor"		"FlameMenuBorder"
 		"tileImage"		"1"
-	}					
+	}
+	
 	"FooterLine"
 	{
 		"ControlName"	"ImagePanel"
@@ -73,7 +75,7 @@
 		"image"			""
 		"fillcolor"		"White"
 		"scaleImage"	"1"
-	}				
+	}
 	
 	"Sheet"
 	{
@@ -82,15 +84,16 @@
 		"tabxindent"	"80"
 		"tabxdelta"		"10"
 		"tabwidth"		"240"
-		"tabheight"		"34"
+		"tabheight"		"24"
 		"transition_time" "0"
+		"yoffset"		"26"
 		
 		"HeaderLine"
 		{
 			"ControlName"	"ImagePanel"
 			"fieldName"		"HeaderLine"
 			"xpos"			"0"
-			"ypos"			"32"
+			"ypos"			"48"
 			"zpos"			"5"
 			"wide"			"f0"
 			"tall"			"2"
@@ -105,7 +108,7 @@
 		{
 			"fillcolor"			"Black"
 			"textinsetx"		"40"
-			"font"				"HudFontMediumBold"
+			"font"				"HudFontMediumSmallBold"
 			"paintbackground"	"1"
 			"selectedcolor"		"White"
 			"unselectedcolor"	"FlameMenuBorder"	
@@ -115,7 +118,6 @@
 
 			"activeborder_override"	"FlameWhiteTabs"
 			"normalborder_override" "FlameWhiteTabs"
-			
 		}
 	}
 	

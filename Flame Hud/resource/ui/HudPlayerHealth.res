@@ -160,37 +160,6 @@
 		"image"			"../vgui/bleed_drop"
 		"fgcolor"		"TanDark"
 	}
-	"PlayerStatusSlowed"
-	{
-		"ControlName"	"ImagePanel"
-		"fieldName"		"PlayerStatusSlowed"
-		"xpos"			"c-15"
-		"ypos"			"r157"
-		"zpos"			"7"
-		"wide"			"30"
-		"tall"			"30"
-		"visible"		"1"
-		"enabled"		"1"
-		"scaleImage"	"1"	
-		"image"			"../vgui/slowed"
-		"fgcolor"		"TanDark"
-	}
-	
-	"PlayerStatusGasImage"
-	{
-		"ControlName"	"ImagePanel"
-		"fieldName"		"PlayerStatusGasImage"
-		"xpos"			"c-15"
-		"ypos"			"r157"
-		"zpos"			"7"
-		"wide"			"30"
-		"tall"			"30"
-		"visible"		"1"
-		"enabled"		"1"
-		"scaleImage"	"1"	
-		"image"			"../vgui/covered_in_gas"
-		"fgcolor"		"TanDark"
-	}
 	"PlayerStatusHookBleedImage"
 	{
 		"ControlName"	"ImagePanel"
@@ -219,6 +188,21 @@
 		"enabled"		"1"
 		"scaleImage"	"1"	
 		"image"			"../vgui/bleed_drop"
+		"fgcolor"		"TanDark"
+	}
+	"PlayerStatusGasImage"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"PlayerStatusGasImage"
+		"xpos"			"c-15"
+		"ypos"			"r157"
+		"zpos"			"7"
+		"wide"			"30"
+		"tall"			"30"
+		"visible"		"1"
+		"enabled"		"1"
+		"scaleImage"	"1"	
+		"image"			"../vgui/covered_in_gas"
 		"fgcolor"		"TanDark"
 	}
 	"PlayerStatusMarkedForDeathImage"
@@ -343,7 +327,6 @@
 		"fgcolor"		"TanDark"
 	}
 	
-
 	"PlayerStatus_WheelOfDoom"
 	{
 		"ControlName"	"ImagePanel"
@@ -614,6 +597,21 @@
 		"enabled"		"1"
 		"scaleImage"	"1"	
 		"image"			"../Effects/powerup_supernova_hud"
+		"fgcolor"		"TanDark"
+	}
+	"PlayerStatusSlowed"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"PlayerStatusSlowed"
+		"xpos"			"c-15"
+		"ypos"			"r157"
+		"zpos"			"7"
+		"wide"			"30"
+		"tall"			"30"
+		"visible"		"1"
+		"enabled"		"1"
+		"scaleImage"	"1"	
+		"image"			"../vgui/slowed"
 		"fgcolor"		"TanDark"
 	}
 }

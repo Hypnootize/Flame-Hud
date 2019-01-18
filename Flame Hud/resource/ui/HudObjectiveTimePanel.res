@@ -65,11 +65,6 @@
 		"brighttext"	"0"
 		"wrap"			"0"
 		"font"			"ClockSubTextTiny"
-		
-		if_match
-		{
-			"xpos"			"9999"
-		}
 	}			
 	"WaitingForPlayersBG"
 	{
@@ -84,11 +79,6 @@
 		"enabled"		"1"
 		"image"			"../hud/objectives_timepanel_suddendeath"	
 		"scaleImage"	"1"	
-		
-		if_match
-		{
-			"xpos"			"9999"
-		}
 	}
 	"OvertimeLabel"
 	{
@@ -107,11 +97,6 @@
 		"brighttext"	"0"
 		"wrap"			"0"
 		"font"			"ClockSubTextTiny"
-		
-		if_match
-		{
-			"xpos"			"9999"
-		}
 	}			
 	"OvertimeBG"
 	{
@@ -126,11 +111,6 @@
 		"enabled"		"1"
 		"image"			"../hud/objectives_timepanel_suddendeath"	
 		"scaleImage"		"1"	
-		
-		if_match
-		{
-			"xpos"			"9999"
-		}
 	}
 	"SuddenDeathLabel"
 	{
@@ -149,11 +129,6 @@
 		"brighttext"	"0"
 		"wrap"			"0"
 		"font"			"ClockSubTextSuddenDeath"
-		
-		if_match
-		{
-			"xpos"			"9999"
-		}
 	}			
 	"SuddenDeathBG"
 	{
@@ -167,12 +142,7 @@
 		"visible"		"0"
 		"enabled"		"1"
 		"image"			"../hud/objectives_timepanel_suddendeath"	
-		"scaleImage"	"1"	
-		
-		if_match
-		{
-			"xpos"			"9999"
-		}
+		"scaleImage"	"1"
 	}	
 	"SetupLabel"
 	{
@@ -191,11 +161,6 @@
 		"brighttext"	"0"
 		"wrap"			"0"
 		"font"			"ClockSubTextSuddenDeath"
-		
-		if_match
-		{
-			"xpos"			"9999"
-		}
 	}	
 	"SetupBG"
 	{
@@ -209,12 +174,7 @@
 		"visible"		"0"
 		"enabled"		"1"
 		"image"			"../hud/objectives_timepanel_suddendeath"	
-		"scaleImage"		"1"	
-		
-		if_match
-		{
-			"xpos"			"9999"
-		}
+		"scaleImage"		"1"
 	}
 	"ServerTimeLimitLabel"
 	{
@@ -234,22 +194,17 @@
 		"wrap"			"0"
 		"fgcolor_override"		"FlameWhite"
 		"font"			"HudFontSmall"
-		
-		if_match
-		{
-			
-		}
 	}	
 	"ServerTimeLimitLabelBG"
 	{
-		"ControlName"		"ImagePanel"
+		"ControlName"	"ImagePanel"
 		"fieldName"		"ServerTimeLimitLabelBG"
 		"xpos"			"35"	[$WIN32]
 		"ypos"			"15"
 		"zpos"			"1"
 		"wide"			"40"
 		"tall"			"15"
-		"autoResize"		"1"
+		"autoResize"	"1"
 		"scaleImage" 	"1"
 		"pinCorner"		"0"
 		"visible"		"1"
