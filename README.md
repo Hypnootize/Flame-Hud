@@ -6,7 +6,7 @@
 
 [TeamFortress.tv](https://www.teamfortress.tv/33738/ive-updated-some-huds)
 
-[Screenshot Album](https://imgur.com/a/hrnc7)
+[Screenshot Album](https://imgur.com/a/NHBdv)
 
 [Changelogs](https://github.com/Hypnootize/Flame-Hud/commits/master)
 
