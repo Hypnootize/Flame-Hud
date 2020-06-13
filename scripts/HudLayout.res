@@ -1,4 +1,4 @@
-#base "../scripts/Crosshairs/crosshairs.res"
+#base "../scripts/Crosshairs/HudLayout_Crosshairs.res"
 
 "Resource/HudLayout.res"
 {
@@ -1077,7 +1077,7 @@
 		"xpos"					"c-60"
 		"ypos"					"30"
 		"wide"					"120"
-		"tall"					"15"
+		"tall"					"40"
 	}
 	
 	NotificationPanel
