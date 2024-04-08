@@ -1,19 +1,15 @@
-# Flame Hud
+<div align="center">
 
+# flamehud
+### By Flame
 
-<a>LINKS</a>
-====
+**[SCREENSHOTS](../screenshots/showcase.md)** -
+**[INSTALLATION](https://github.com/Hypnootize/TF2-HUD-GitHub-Resources/blob/main/installation/windows_install.md)** -
+**[CONTRIBUTING](https://github.com/Hypnootize/TF2-HUD-GitHub-Resources/blob/main/contributing/github_contributing.md)** -
+**[ORIGINAL REPO](https://github.com/mattr0d/flamehud)**
 
-[TeamFortress.tv](https://www.teamfortress.tv/33738/ive-updated-some-huds)
-
-[Screenshot Album](https://imgur.com/a/NHBdv)
-
-[Changelogs](https://github.com/Hypnootize/Flame-Hud/commits/master)
-
-[Installation](https://imgur.com/a/w3Ah6)
-
-![](https://i.imgur.com/RMsnigS.jpg)
-
-<a>CREDITS</a>
-====
-**Created By:** Flame
+![Main Menu](../screenshots/01_Main_Menu.jpg)
+![Health Buff](../screenshots/10_Health_Buff.jpg)
+![Health & Ammo Low](../screenshots/11_Health_Ammo_Low.jpg)
+![Scoreboard](../screenshots/14_Scoreboard.jpg)
+![Win & Damage](../screenshots/18_Win.jpg)
